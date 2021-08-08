@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name='viewport' content='initial-scale=1' , width=device-width charset="utf-8">
+    <title>FIND REINER</title>
+    <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/fc86cceaee.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <p class="para">V2.5</p>
+     <button id="reload" type="button" class="btn btn-warning btn-lg" onclick="refresh()"> refresh page</button>
+    <h1 id="text" class="text">Click on any of the cards and find Reiner  </h1>
+    <div class="heart-div">
+      <h2 class="hp u-have">HP :</h2>
+      <i id="heart1" class="fas heart1 fa-1x fa-heart hp"></i>
+      <i id="heart2" class="fas heart2 fa-1x fa-heart hp"></i>
+      <i id="heart3" class="fas heart3 fa-1x fa-heart hp"></i>
+      <i id="heart4" class="fas heart4 fa-1x fa-heart hp"></i>
+      <i id="heart5" class="fas heart5 fa-1x fa-heart hp"></i>
+    </div>
+<div class="container">
+
+  <div class="row">
+    <div class="col" >
+      <img id="hide1" class="hide hide1  hidden1" src="images/hide.png" onclick=imageChanger()>
+<img id="hide2" class="  hidden2" src="images/hide.png" onclick= imageChanger2() >
+<img id="hide3" class=" hidden3" src="images/hide.png" onclick="imageChanger3()" >
+
+    </div>
+
+
+
+    <div class="row">
+      <div class="col" >
+        <img id="hide4" class="hidden  hidden4" src="images/hide.png" onclick=imageChanger4() >
+  <img id="hide5" class="hidden  hidden5" src="images/hide.png" onclick=imageChanger5() >
+  <img id="hide6" class="hidden  hidden6" src="images/hide.png"  onclick=imageChanger6()>
+      </div>
+
+     </div>
+
+
+     <div class="row">
+       <div class="col" >
+         <img id="hide7" class="hidden hidden7" src="images/hide.png"  onclick="imageChanger7()">
+   <img id="hide8" class="hidden hidden8" src="images/hide.png"  onclick="imageChanger8()">
+   <img id="hide9" class="hidden hidden9" src="images/hide.png"  onclick="imageChanger9()">
+       </div>
+
+      </div>
+      <div class="row">
+        <div class="col" >
+
+          <img id="hide10" class="hidden  hidden10" src="images/hide.png" onclick="imageChanger10()" >
+          <img id="hide11" class="hidden  hidden11" src="images/hide.png" onclick="imageChanger11()" >
+
+        </div>
+
+       </div>
+
+   </div>
+
+
+
+
+
+</div>
+
+
+
+
+   <button id="btn3" type="button" class="btn btn-success btn-lg" onclick="button3()">Final Round</button>
+<button id="btn"  class="btn btn-success btn-lg  test" type="button"onclick="button()">Round 2</button>
+<button id="btn2" type="button" class="btn btn-success btn-lg" onclick="button2()">Round 3</button>
+</div>
+
+
+<script src="index.js" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>
